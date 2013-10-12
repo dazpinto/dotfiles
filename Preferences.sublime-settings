@@ -11,8 +11,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Smart Duplicate"
+		"Smart Duplicate",
+		"Vintage"
 	],
 	"indent_subsequent_lines": true,
 	"line_numbers": true,

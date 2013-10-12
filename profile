@@ -20,4 +20,5 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-[[ -s /home/darryl.pinto/.nvm/nvm.sh ]] && . /home/darryl.pinto/.nvm/nvm.sh # This loads NVM
+
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
