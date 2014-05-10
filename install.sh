@@ -23,9 +23,9 @@ echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
 for file in $files; do
-    mv ~/.$file ~/dotfiles_old/ -f 
+    mv ~/.$file ~/dotfiles_old/ -f
     echo "Symlinking $dir/$file to ~/.$file"
     ln -s $dir/$file ~/.$file
 done
@@ -33,7 +33,7 @@ done
 
 #####Sublime Text stuff
 sublimeDestination=~/.config/sublime-text-3/Packages/User
-sublimeFiles=("Default (Linux).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Ruby.sublime-settings" "Side Bar.sublime-settings" "Soda Dark.sublime-theme")
+sublimeFiles=("Default (Linux).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Side Bar.sublime-settings" "Soda Dark.sublime-theme")
 IFS=""
 mkdir $sublimeDestination
 for file in ${sublimeFiles[*]}; do
