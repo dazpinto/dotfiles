@@ -3,17 +3,22 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"Better CoffeeScript",
 		"CoffeeScript",
+		"Color Highlighter",
 		"DeleteBlankLines",
 		"Derby - Bourbon & Neat Autocompletions",
 		"Duplicate Lines",
 		"Emmet",
+		"Emmet Css Snippets",
+		"ERB Snippets",
 		"FileDiffs",
 		"Git",
 		"GitGutter",
 		"Handlebars",
 		"JavaScript & NodeJS Snippets",
+		"JSONLint",
 		"Package Control",
 		"RSpec",
 		"rspec-snippets",
@@ -23,6 +28,8 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeGit",
+		"Super Calculator",
+		"Syntax Highlighting for Sass",
 		"Theme - Soda",
 		"ZenGarden"
 	]
