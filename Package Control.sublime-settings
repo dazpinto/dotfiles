@@ -3,17 +3,23 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"Better CoffeeScript",
 		"CoffeeScript",
-		"DeleteBlankLines",
-		"Derby - Bourbon & Neat Autocompletions",
+		"Color Highlighter",
 		"Duplicate Lines",
 		"Emmet",
+		"Emmet Css Snippets",
+		"ERB Snippets",
 		"FileDiffs",
 		"Git",
 		"GitGutter",
 		"Handlebars",
 		"JavaScript & NodeJS Snippets",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Monokai Extended",
 		"Package Control",
 		"RSpec",
 		"rspec-snippets",
@@ -23,7 +29,7 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeGit",
-		"Theme - Soda",
-		"ZenGarden"
+		"Text Pastry",
+		"Theme - Soda"
 	]
 }

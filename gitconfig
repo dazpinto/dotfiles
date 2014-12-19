@@ -22,4 +22,5 @@
 	email = dazpinto@gmail.com
 	name = Darryl Pinto
 [push]
-	default = simple
+  default = simple
+

@@ -1,6 +1,7 @@
 {
 	"auto_indent": true,
 	"auto_match_enabled": true,
+	"bold_folder_labels": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
@@ -12,9 +13,9 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Smart Duplicate",
+		"Git",
 		"GitGutter",
-		"Git"
+		"Smart Duplicate"
 	],
 	"indent_subsequent_lines": true,
 	"line_numbers": true,
