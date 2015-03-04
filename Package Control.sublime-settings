@@ -1,5 +1,8 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -14,6 +17,7 @@
 		"FileDiffs",
 		"Git",
 		"GitGutter",
+		"GitGutter-Edge",
 		"Handlebars",
 		"JavaScript & NodeJS Snippets",
 		"LESS",
@@ -27,9 +31,9 @@
 		"SASS Snippets",
 		"SCSS",
 		"SideBarEnhancements",
+		"Stylus",
 		"SublimeCodeIntel",
-		"SublimeGit",
-		"Text Pastry",
+		"SublimeServer",
 		"Theme - Soda"
 	]
 }
