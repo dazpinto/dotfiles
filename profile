@@ -23,3 +23,5 @@ fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

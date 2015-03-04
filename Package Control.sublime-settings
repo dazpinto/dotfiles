@@ -10,6 +10,7 @@
 		"Better CoffeeScript",
 		"CoffeeScript",
 		"Color Highlighter",
+		"DeleteBlankLines",
 		"Duplicate Lines",
 		"Emmet",
 		"Emmet Css Snippets",
@@ -24,6 +25,7 @@
 		"Markdown Extended",
 		"Markdown Preview",
 		"Monokai Extended",
+		"JSONLint",
 		"Package Control",
 		"RSpec",
 		"rspec-snippets",
@@ -34,6 +36,9 @@
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeServer",
+		"SublimeGit",
+		"Super Calculator",
+		"Syntax Highlighting for Sass",
 		"Theme - Soda"
 	]
 }
