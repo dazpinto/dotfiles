@@ -10,6 +10,7 @@
 		"Better CoffeeScript",
 		"CoffeeScript",
 		"Color Highlighter",
+		"ColorPicker",
 		"DeleteBlankLines",
 		"Duplicate Lines",
 		"Emmet",
@@ -20,12 +21,13 @@
 		"GitGutter",
 		"GitGutter-Edge",
 		"Handlebars",
+		"HTML-CSS-JS Prettify",
 		"JavaScript & NodeJS Snippets",
+		"JSONLint",
 		"LESS",
 		"Markdown Extended",
 		"Markdown Preview",
 		"Monokai Extended",
-		"JSONLint",
 		"Package Control",
 		"RSpec",
 		"rspec-snippets",
@@ -35,10 +37,12 @@
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeCodeIntel",
-		"SublimeServer",
 		"SublimeGit",
+		"SublimeServer",
 		"Super Calculator",
+		"Sync View Scroll",
 		"Syntax Highlighting for Sass",
-		"Theme - Soda"
+		"Theme - Soda",
+		"WakaTime"
 	]
 }

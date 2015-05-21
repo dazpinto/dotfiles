@@ -1,5 +1,3 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by file type specific settings.
 {
 	"auto_indent": true,
 	"auto_match_enabled": true,
@@ -16,7 +14,6 @@
 	[
 		"Vintage",
 		"Smart Duplicate",
-		"GitGutter",
 		"Git"
 	],
 	"indent_subsequent_lines": true,
