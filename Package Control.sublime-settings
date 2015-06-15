@@ -28,12 +28,14 @@
 		"Markdown Extended",
 		"Markdown Preview",
 		"Monokai Extended",
+		"Origami",
 		"Package Control",
 		"RSpec",
 		"rspec-snippets",
 		"Sass",
 		"SASS Snippets",
 		"SCSS",
+		"Seti_UI",
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeCodeIntel",
@@ -43,6 +45,7 @@
 		"Sync View Scroll",
 		"Syntax Highlighting for Sass",
 		"Theme - Soda",
+		"Themr",
 		"WakaTime"
 	]
 }

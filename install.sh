@@ -33,7 +33,7 @@ done
 
 #####Sublime Text stuff
 sublimeDestination=~/.config/sublime-text-3/Packages/User
-sublimeFiles=("Default\ \(Linux\).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Side\ Bar.sublime-settings" "Soda\ Dark.sublime-theme")
+sublimeFiles=("Default\ \(Linux\).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Side\ Bar.sublime-settings" "Soda\ Dark.sublime-theme" "Seti.sublime-theme")
 IFS=""
 mkdir $sublimeDestination
 for file in ${sublimeFiles[*]}; do
