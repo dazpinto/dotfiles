@@ -9,5 +9,8 @@
   { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
   { "keys": ["shift+ctrl+f4"], "command": "close_all" },
   { "keys": ["ctrl+shift+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["ctrl+alt+d"], "command": "permute_lines", "args": {"operation": "unique"} }
+  { "keys": ["ctrl+alt+d"], "command": "permute_lines", "args": {"operation": "unique"} },
+  { "keys": ["ctrl+shift+q"], "command": "toggle_side_bar" },
+  { "keys": [], "command": "close_window" },
+  { "keys": ["ctrl+shift+w"], "command": "toggle_minimap" }
 ]
