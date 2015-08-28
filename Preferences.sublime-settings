@@ -26,9 +26,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Git",
 		"Smart Duplicate",
-		"Vintage",
-		"Git"
+		"Vintage"
 	],
 	"indent_subsequent_lines": true,
 	"line_numbers": true,
@@ -45,7 +45,7 @@
 	"material_theme_disable_tree_indicator": false,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": false,
-	"mouse_wheel_switches_tabs": false,
+	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": true,
 	"scroll_past_end": true,
 	"show_tab_close_buttons": true,
