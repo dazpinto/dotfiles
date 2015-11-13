@@ -5,7 +5,7 @@ alias d='cd ..'
 
 alias ss="script/server"
 alias sc="script/console"
-alias rs="bundle exec rails server"
+alias rs="bundle exec rails server -b 0.0.0.0"
 alias ru="bundle exec rackup"
 alias rc="bundle exec rails console"
 alias rr="bundle exec rake routes"
@@ -16,6 +16,7 @@ alias psq="sudo -u postgres psql"
 alias rndFile="dd if=/dev/zero of=testfile.txt count=1 bs="
 alias pys="python -m SimpleHTTPServer 3100"
 alias ms="bundle exec middleman server"
+alias opt="optipng ~/workspace/x/*.png && svgo ~/workspace/x/*.svg"
 
 alias gita="git add ."
 alias gits="git status"

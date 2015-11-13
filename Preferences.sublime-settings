@@ -21,11 +21,12 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"CoffeeScript",
 		"Smart Duplicate",
 		"Vintage"
 	],
@@ -41,6 +42,7 @@
 	"material_theme_accent_orange": false,
 	"material_theme_accent_purple": false,
 	"material_theme_bold_tab": false,
+	"material_theme_contrast_mode": true,
 	"material_theme_disable_tree_indicator": false,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": false,

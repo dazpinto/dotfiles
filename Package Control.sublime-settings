@@ -1,7 +1,9 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"CoffeeScript"
 	],
 	"installed_packages":
 	[
@@ -19,6 +21,7 @@
 		"FileDiffs",
 		"GitGutter",
 		"GitGutter-Edge",
+		"Glue",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"JavaScript & NodeJS Snippets",
