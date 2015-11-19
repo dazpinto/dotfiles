@@ -17,6 +17,7 @@ alias rndFile="dd if=/dev/zero of=testfile.txt count=1 bs="
 alias pys="python -m SimpleHTTPServer 3100"
 alias ms="bundle exec middleman server"
 alias opt="optipng ~/workspace/x/*.png && svgo ~/workspace/x/*.svg"
+alias subl="~/sublime_text_3/sublime_text"
 
 alias gita="git add ."
 alias gits="git status"
