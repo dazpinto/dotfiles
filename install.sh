@@ -7,7 +7,6 @@
 ########## Variables
 
 dir=~/dotfiles                    # dotfiles directory
-sublimeDir= ~/dotfiles/sublime
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="bash_aliases bash_login gitconfig profile vimrc"    # list of files/folders to symlink in homedir
 
@@ -31,14 +30,5 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-
-#####Sublime Text stuff
-sublimeDestination=~/.config/sublime-text-3/Packages/User
-sublimeFiles=("snippets Default\ \(Linux\).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Soda\ Dark.sublime-theme" "Seti.sublime-theme")
-IFS=""
-mkdir $sublimeDestination
-for file in ${sublimeFiles[*]}; do
-	mv $sublimeDestination/$file ~/dotfiles_old/ -f
-	echo "Symlinking $sublimeDir/$file to $sublimeDestination/$file"
-	ln -s $sublimeDir/$file $sublimeDestination/$file
-done
+chmod +x sublime/install.sh
+./sublime/install.sh
