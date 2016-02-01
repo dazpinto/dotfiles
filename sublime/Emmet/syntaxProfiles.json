@@ -1,0 +1,9 @@
+  {
+    "html": {
+      "attr_quotes": "single"
+    },
+
+    "xhtml": {
+      "attr_quotes": "single"
+    }
+  }

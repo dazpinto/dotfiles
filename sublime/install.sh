@@ -1,6 +1,6 @@
 sublimeDir=~/dotfiles/sublime
 sublimeDestination=~/.config/sublime-text-3/Packages/User
-sublimeFiles=("snippets" "Default\ \(Linux\).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Soda\ Dark.sublime-theme" "Seti.sublime-theme")
+sublimeFiles=("snippets" "Emmet" "Default\ \(Linux\).sublime-keymap" "Package Control.sublime-settings" "Preferences.sublime-settings" "Soda\ Dark.sublime-theme" "Seti.sublime-theme" "Emmet.sublime-settings")
 IFS=""
 
 mkdir $sublimeDestination
