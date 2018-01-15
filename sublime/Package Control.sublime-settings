@@ -1,10 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-		"CoffeeScript"
-	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -30,7 +26,6 @@
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"Super Calculator",
-		"Theme - Soda",
-		"WakaTime"
+		"Theme - Soda"
 	]
 }

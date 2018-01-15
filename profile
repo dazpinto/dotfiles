@@ -24,8 +24,10 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 
 GIT_PROMPT_THEME=Single_line
 source ~/dotfiles/bash-git-prompt/gitprompt.sh
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+eval "$(rbenv init -)"
