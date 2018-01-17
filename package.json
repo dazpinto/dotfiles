@@ -1,0 +1,12 @@
+{
+  "name": "dotfiles",
+  "author": "Darryl Pinto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazpinto/dotfiles.git"
+  },
+  "scripts": {
+    "install:bash": "chmod +x install-bash.sh && ./install-bash.sh",
+    "install:sublime": "chmod +x sublime/install-sublime.sh && ./sublime/install-sublime.sh"
+  },
+}
