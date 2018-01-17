@@ -19,6 +19,10 @@
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_subsequent_lines": true,
 	"line_numbers": true,
 	"line_padding_bottom": 1,

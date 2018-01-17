@@ -1,8 +1,12 @@
 {
 	"auto_upgrade_last_run": null,
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Alignment",
 		"Better CoffeeScript",
 		"Color Highlighter",
@@ -21,11 +25,14 @@
 		"Markdown Preview",
 		"Material Theme",
 		"Monokai Extended",
+		"Package Control",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"Super Calculator",
-		"Theme - Soda"
+		"Theme - Soda",
+		"TypeScript Syntax",
+		"Vuejs Complete Package"
 	]
 }

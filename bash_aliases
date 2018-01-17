@@ -21,7 +21,7 @@ alias pys="python -m SimpleHTTPServer 3100"
 alias ms="bundle exec middleman server"
 
 alias opt="optipng ~/workspace/x/*.png && svgo ~/workspace/x/*.svg"
-alias subl="~/sublime_text_3/sublime_text"
+alias subl="/opt/sublime_text/sublime_text"
 alias code="~/vscode/code"
 alias nvmu="nvm use"
 
