@@ -5,8 +5,12 @@
     "type": "git",
     "url": "git+https://github.com/dazpinto/dotfiles.git"
   },
-  "scripts": {
-    "install:bash": "chmod +x install-bash.sh && ./install-bash.sh",
-    "install:sublime": "chmod +x sublime/install-sublime.sh && ./sublime/install-sublime.sh"
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "shelljs": "^0.8.0"
   },
+  "scripts": {
+    "install:bash": "node src/bash.es6",
+    "install:sublime": "node src/sublime.es6"
+  }
 }
