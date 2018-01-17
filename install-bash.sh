@@ -29,6 +29,3 @@ for file in $files; do
     echo "Symlinking $dir/$file to ~/.$file"
     ln -s $dir/$file ~/.$file
 done
-
-chmod +x sublime/install.sh
-./sublime/install.sh
