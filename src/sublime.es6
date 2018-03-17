@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const shell = require('shelljs');
 
-const sublimeConfigFolder = "dotfiles/config/sublime/"
+const sublimeConfigFolder = `${shell.pwd()}/config/sublime`
 const sublimeDestination = "~/.config/sublime-text-3/Packages/User/"
 const backupFolder = "dotfile_backup"
 
@@ -24,12 +24,12 @@ shell.echo('installing ' + _.join(_.concat(folders, files), ', '));
 
 _.forEach(folders, function (folder) {
   shell.mv('-R', sublimeDestination + folder, backupFolder);
-  shell.ln('-sf', `${sublimeConfigFolder}${file}`, sublimeDestination + folder);
+  shell.ln('-sf', `${sublimeConfigFolder}/${file}`, sublimeDestination + folder);
 });
 
 _.forEach(files, function (file) {
   shell.mv(getOriginalPath(file), backupFolder);
-  shell.ln('-sf', `${sublimeConfigFolder}${file}`, getOriginalPath(file));
+  shell.ln('-sf', `${sublimeConfigFolder}/${file}`, getOriginalPath(file));
 });
 
 
