@@ -12,7 +12,7 @@ let removeOldConf = function (path) {
   }
   else if (shell.test('-d', path) || shell.test('-f', path)) { // If directory or regular file
     shell.echo(`backing up ${path} to ${oldDotfilesFolder}`);
-    shell.mv(path, oldDotfilesFolder);
+    shell.mv('-n', path, `${oldDotfilesFolder}/`);
   }
 }
 
@@ -23,7 +23,6 @@ _.forEach(files, function (file) {
   removeOldConf(`~/.${file}`);
 	shell.ln('-sf', `${configFolder}/${file}`, `~/.${file}`);
 });
-
 
 shell.echo("installing bash-git-prompt");
 if (shell.which('git')) {

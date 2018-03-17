@@ -21,12 +21,14 @@ let removeOldConf = function (path) {
     shell.rm(path);
   }
   else if(shell.test('-d', path) || shell.test('-f', path)) { // If directory or regular file
-    shell.echo(`backing up ${path} to ${backupFolder}`);
-    shell.mv(path, backupFolder);
+    shell.echo(`backing up ${path} to ${backupFolder}/`);
+    shell.mv('-n', path, `${backupFolder}/`);
   }
 }
 
 shell.echo(`installing to ${sublimeDestination}:\n  ` + _.join(_.concat(folders, files), '\n  '));
+shell.mkdir('-p', sublimeDestination);
+shell.mkdir(backupFolder);
 
 _.forEach(folders, function (folder) {
   removeOldConf(`${sublimeDestination}/${folder}`);
