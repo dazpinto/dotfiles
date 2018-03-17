@@ -2,7 +2,7 @@ const _ = require('lodash');
 const shell = require('shelljs');
 
 const sublimeConfigFolder = `${shell.pwd()}/config/sublime`
-const sublimeDestination = "~/.config/sublime-text-3/Packages/User/"
+const sublimeDestination = "~/.config/sublime-text-3/Packages/User"
 const backupFolder = "dotfile_backup"
 
 const folders = ["Emmet", "snippets"];
@@ -16,20 +16,26 @@ const files = [
   'Soda Dark.sublime-theme'
 ];
 
-let getOriginalPath = function (filename) {
-  return sublimeDestination + filename;
+let removeOldConf = function (path) {
+  if (shell.test('-L', path)) { // If symbolic link
+    shell.rm(path);
+  }
+  else if(shell.test('-d', path) || shell.test('-f', path)) { // If directory or regular file
+    shell.echo(`backing up ${path} to ${backupFolder}`);
+    shell.mv(path, backupFolder);
+  }
 }
 
-shell.echo('installing ' + _.join(_.concat(folders, files), ', '));
+shell.echo(`installing to ${sublimeDestination}:\n  ` + _.join(_.concat(folders, files), '\n  '));
 
 _.forEach(folders, function (folder) {
-  shell.mv('-R', sublimeDestination + folder, backupFolder);
-  shell.ln('-sf', `${sublimeConfigFolder}/${file}`, sublimeDestination + folder);
+  removeOldConf(`${sublimeDestination}/${folder}`);
+  shell.ln('-sf', `${sublimeConfigFolder}/${folder}`, `${sublimeDestination}/${folder}`);
 });
 
 _.forEach(files, function (file) {
-  shell.mv(getOriginalPath(file), backupFolder);
-  shell.ln('-sf', `${sublimeConfigFolder}/${file}`, getOriginalPath(file));
+  removeOldConf(`${sublimeDestination}/${file}`);
+  shell.ln('-sf', `${sublimeConfigFolder}/${file}`, `${sublimeDestination}/${file}`);
 });
 
 
