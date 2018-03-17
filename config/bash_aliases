@@ -24,6 +24,7 @@ alias opt="optipng ~/workspace/x/*.png && svgo ~/workspace/x/*.svg"
 alias subl="/opt/sublime_text/sublime_text"
 alias code="~/vscode/code"
 alias nvmu="nvm use"
+alias ipa="hostname -i"
 
 alias gita="git add ."
 alias gits="git status"

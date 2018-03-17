@@ -31,3 +31,4 @@ source ~/dotfiles/bash-git-prompt/gitprompt.sh
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
+

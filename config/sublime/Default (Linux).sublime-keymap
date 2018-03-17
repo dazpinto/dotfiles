@@ -12,5 +12,6 @@
   { "keys": ["ctrl+alt+d"], "command": "permute_lines", "args": {"operation": "unique"} },
   { "keys": ["ctrl+shift+q"], "command": "toggle_side_bar" },
   { "keys": [], "command": "close_window" },
-  { "keys": ["ctrl+shift+w"], "command": "toggle_minimap" }
+  { "keys": ["ctrl+shift+w"], "command": "toggle_minimap" },
+  { "keys": ["ctrl+k"], "command": "yank" }
 ]

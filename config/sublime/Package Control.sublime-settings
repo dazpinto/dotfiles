@@ -8,9 +8,10 @@
 	[
 		"A File Icon",
 		"Alignment",
+		"AlignTab",
 		"Better CoffeeScript",
 		"Color Highlighter",
-		"ColorPicker",
+		"CSS Color Converter",
 		"Emmet",
 		"Emmet Css Snippets",
 		"ERB Snippets",
@@ -30,9 +31,12 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-contrib-tslint",
 		"Super Calculator",
 		"Theme - Soda",
 		"TypeScript Syntax",
-		"Vuejs Complete Package"
+		"Vuejs Complete Package",
+		"WakaTime"
 	]
 }
