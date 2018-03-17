@@ -1,9 +1,10 @@
 const _ = require('lodash');
 const shell = require('shelljs');
 
-const configFolder = `${shell.pwd()}/config`
-const oldDotfilesFolder = "dotfile_backup"
-const files = ['bash_aliases', 'bash_login', 'gitconfig', 'profile', 'vimrc']
+const bashPromptFolder = "~/.bash-git-prompt";
+const configFolder = `${shell.pwd()}/config`;
+const oldDotfilesFolder = "dotfile_backup";
+const files = ['bash_aliases', 'bash_login', 'gitconfig', 'profile', 'vimrc'];
 
 const filesOrigPath = _.map(files, function (a) { return `~/.${a}`; });
 
@@ -17,7 +18,6 @@ _.forEach(filesOrigPath, function (file) {
 		shell.mv(file, oldDotfilesFolder);
 	}
 });
-shell.echo('...done');
 
 
 _.forEach(files, function (file) {
@@ -26,5 +26,11 @@ _.forEach(files, function (file) {
 });
 
 
-shell.echo('...done');
-shell.exit(1);
+shell.echo("installing bash-git-prompt");
+if (shell.which('git')) {
+  shell.exec(`git clone https://github.com/magicmonty/bash-git-prompt.git ${bashPromptFolder} --depth=1`);
+}
+else { shell.echo('Sorry, this script requires git'); }
+
+shell.echo('done!');
+shell.exit(0);

@@ -26,4 +26,3 @@
   default = simple
 
 [core]
-	askpass = git-gui--askpass
