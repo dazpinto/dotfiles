@@ -10,7 +10,7 @@
     "shelljs": "^0.8.0"
   },
   "scripts": {
-    "install:bash": "node src/bash.es6",
-    "install:sublime": "node src/sublime.es6"
+    "install:bash": "node src/bash.js",
+    "install:sublime": "node src/sublime.js"
   }
 }
