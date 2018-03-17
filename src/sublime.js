@@ -33,5 +33,5 @@ _.forEach(files, function (file) {
 });
 
 
-shell.echo('...done');
-shell.exit(1);
+shell.echo('done!');
+shell.exit(0);
