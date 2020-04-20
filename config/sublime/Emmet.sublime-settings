@@ -1,3 +1,6 @@
 {
-  "extensions_path": "~/.config/sublime-text-3/Packages/User/Emmet"
+  "extensions_path": "~/.config/sublime-text-3/Packages/User/Emmet",
+  "preferences": {
+    "css.autoInsertVendorPrefixes": false
+  },
 }

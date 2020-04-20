@@ -6,7 +6,6 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"Alignment",
 		"AlignTab",
 		"Better CoffeeScript",
@@ -22,6 +21,7 @@
 		"Intellitip",
 		"JavaScriptNext - ES6 Syntax",
 		"JSONLint",
+		"JsPrettier",
 		"LESS",
 		"MarkdownPreview",
 		"Material Theme",
@@ -32,9 +32,12 @@
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
+		"SublimeLinter-contrib-stylint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-tslint",
 		"Super Calculator",
 		"Theme - Soda",
+		"TypeScript",
 		"TypeScript Syntax",
 		"Vuejs Complete Package",
 		"WakaTime"
