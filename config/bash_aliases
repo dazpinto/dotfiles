@@ -1,5 +1,6 @@
 # aliases
 alias l='ls -lah'
+lsym () { find $1 -maxdepth 1 -type l -ls; }
 alias c='cd'
 alias d='cd ..'
 
