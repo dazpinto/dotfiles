@@ -1,6 +1,3 @@
-[github]
-	user = dazpinto
-	token = 2c6c664a84a4c3d1a21752c18adafefc
 [color]
   branch = auto
   diff = auto
@@ -19,9 +16,6 @@
   added = yellow
   changed = green
   untracked = cyan
-[user]
-	email = dazpinto@gmail.com
-	name = Darryl Pinto
 [push]
   default = simple
 
