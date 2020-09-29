@@ -1,6 +1,9 @@
 {
-  "extensions_path": "~/.config/sublime-text-3/Packages/User/Emmet",
-  "preferences": {
-    "css.autoInsertVendorPrefixes": false
-  },
+	"extensions_path": "~/.config/sublime-text-3/Packages/User/Emmet",
+	"preferences":
+	{
+		"css.autoInsertVendorPrefixes": false
+	},
+	"telemetry": false,
+	"uid": "238213c0-c349-4e58-bff3-1f65f5982428"
 }

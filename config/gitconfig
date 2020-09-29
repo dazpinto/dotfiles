@@ -20,7 +20,7 @@
   changed = green
   untracked = cyan
 [user]
-	email = dazpinto@gmail.com
+	email = darryl.pinto@ahc.com
 	name = Darryl Pinto
 [push]
   default = simple
