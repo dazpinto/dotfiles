@@ -11,6 +11,7 @@
   },
   "scripts": {
     "install:bash": "node src/bash.js",
+    "install:zsh": "node src/zsh.js",
     "install:sublime": "node src/sublime.js"
   }
 }
