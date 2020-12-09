@@ -8,6 +8,7 @@ const backupFolder = "dotfile_backup"
 const folders = ["Emmet", "snippets"];
 const files = [
   'Default (Linux).sublime-keymap',
+  'Default (OSX).sublime-keymap',
   'Emmet.sublime-settings',
   'Package Control.sublime-settings',
   'Preferences.sublime-settings',
