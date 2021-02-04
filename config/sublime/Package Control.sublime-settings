@@ -24,6 +24,7 @@
 		"JsPrettier",
 		"LESS",
 		"MarkdownPreview",
+		"Material Monokai",
 		"Material Theme",
 		"Monokai Extended",
 		"Package Control",
@@ -39,7 +40,6 @@
 		"Theme - Soda",
 		"TypeScript",
 		"TypeScript Syntax",
-		"Vuejs Complete Package",
-		"WakaTime"
+		"Vuejs Complete Package"
 	]
 }
