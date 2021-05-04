@@ -17,7 +17,7 @@
   changed = green
   untracked = cyan
 [user]
-	email = darryl.pinto@ahc.com
+	email = darryl.pinto@yourparkingspace.co.uk
 	name = Darryl Pinto
 [push]
   default = simple
