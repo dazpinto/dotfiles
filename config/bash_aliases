@@ -5,6 +5,16 @@ alias d='cd ..'
 alias ipa="hostname -I"
 alias pys="python -m SimpleHTTPServer 8888"
 
+subl () { "/mnt/c/Program Files/Sublime Text 3/sublime_text.exe" "$@" & }
+alias mysq="sudo mysql -u root -p"
+
+alias dce="docker compose exec"
+alias dcu="docker-compose up -d"
+alias dex="docker exec -it $1 bash"
+alias dlg="docker logs -f"
+alias dps="docker ps"
+alias dpsa="docker ps -a"
+
 alias be="bundle exec"
 alias rs="bundle exec ./bin/rails server"
 alias rc="bundle exec ./bin/rails console"

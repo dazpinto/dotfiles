@@ -2,7 +2,7 @@ const _ = require('lodash');
 const shell = require('shelljs');
 
 const sublimeConfigFolder = `${shell.pwd()}/config/sublime`
-const sublimeDestination = "~/.config/sublime-text-3/Packages/User"
+const sublimeDestination = "/mnt/c/Users/Darryl/AppData/Roaming/Sublime Text 3/Packages/User"
 const backupFolder = "dotfile_backup"
 
 const folders = ["Emmet", "snippets"];

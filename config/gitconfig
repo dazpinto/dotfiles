@@ -23,3 +23,5 @@
   default = simple
 
 [core]
+[credential]
+	helper = store
