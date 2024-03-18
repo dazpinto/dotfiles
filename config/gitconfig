@@ -2,7 +2,7 @@
   branch = auto
   diff = auto
   status = auto
-	ui = true
+  ui = true
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -17,11 +17,10 @@
   changed = green
   untracked = cyan
 [user]
-	email = darryl.pinto@yourparkingspace.co.uk
-	name = Darryl Pinto
+  name = Darryl Pinto
 [push]
   default = simple
 
 [core]
 [credential]
-	helper = store
+  helper = store
